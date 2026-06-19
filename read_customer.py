@@ -1,3 +1,4 @@
+# Day161 Git Integration Demo
 def parse_record(line):
     customer_id = line[0:6].strip()
     customer_name = line[6:26].strip()
