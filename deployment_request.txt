@@ -1,0 +1,2 @@
+USER=manager1
+TARGET_ENV=production

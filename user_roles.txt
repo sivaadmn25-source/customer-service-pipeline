@@ -1,0 +1,3 @@
+developer1=developer
+approver1=approver
+manager1=release_manager
