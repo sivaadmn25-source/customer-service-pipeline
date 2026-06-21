@@ -13,14 +13,12 @@ def parse_record(line):
         "account_type": account_type,
         "balance": balance
     }
-
 def read_customers(filename):
     customers = []
     with open(filename, "r") as file:
         for line in file:
             customers.append(parse_record(line))
     return customers
-
 if __name__ == "__main__":
     customers = read_customers("customer.dat")
     for customer in customers:
